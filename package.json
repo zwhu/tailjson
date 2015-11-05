@@ -1,0 +1,20 @@
+{
+  "name": "tailjson",
+  "version": "1.0.0",
+  "description": "tail json to one layer",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "mocha --compilers js:babel/register --recursive"
+  },
+  "keywords": [
+    "tail",
+    "json",
+    "js"
+  ],
+  "author": "zwhu2014@foxmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.0.15"
+  }
+}
