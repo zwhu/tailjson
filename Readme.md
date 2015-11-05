@@ -17,7 +17,7 @@
 
 ## Example
 
-1. 多层对象转成单层对象
+#### 多层对象转成单层对象
 
 ```js
 import {tail2SinLayer, tail2MulLayer} from 'tailjson'
@@ -44,7 +44,7 @@ let raw = {
 
 ```
 
-2. 多层对象转成单层对象, value是数组的
+#### 多层对象转成单层对象, value是数组的
 
 ```js
 import {tail2SinLayer, tail2MulLayer} from 'tailjson'
@@ -73,7 +73,7 @@ tail2SinLayer(raw, '#') =>
 
 ```
 
-3. 单层对象转成多层对象
+#### 单层对象转成多层对象
   
 
 ```js
@@ -101,7 +101,7 @@ tail2MulLayer(raw, '#') =>
 
 ```
 
-4. 单层对象转成多层对象, 将key的结尾是数字的转成数组
+#### 单层对象转成多层对象, 将key的结尾是数字的转成数组
 
 ```js
 import {tail2SinLayer, tail2MulLayer} from 'tailjson'
