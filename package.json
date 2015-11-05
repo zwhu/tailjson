@@ -1,6 +1,6 @@
 {
   "name": "tailjson",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "tail json to one layer or multiple layer",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "json",
     "js"
   ],
+  "repository": "https://github.com/zwhu/tailjson",
   "author": "zwhu2014@foxmail.com",
   "license": "MIT",
   "devDependencies": {
