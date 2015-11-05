@@ -1,7 +1,7 @@
 {
   "name": "tailjson",
   "version": "1.0.0",
-  "description": "tail json to one layer",
+  "description": "tail json to one layer or multiple layer",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
